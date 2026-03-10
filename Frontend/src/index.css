@@ -1,0 +1,131 @@
+
+
+body
+{
+  margin:0px;
+  width:100%;
+  height:100%;
+  
+}
+
+h2
+{
+  font-size: 2.2em;
+  font-weight:600;
+}
+
+:root{
+  font-family: "Lato", sans-serif;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  background-color:rgb(40, 40, 40);
+  color:lightgray;
+}
+
+header
+{
+  position:sticky;
+  top:0;
+  display:flex;
+  flex-direction:row;
+  height:50px;
+  justify-content: space-between;
+  background-color: #0d0d0d;
+  align-content: center;
+  color:lightgray;
+  width:100%;
+}
+
+header > nav
+{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  justify-content:space-between;
+  align-items:center;
+  width:800px;
+}
+
+.navLink
+{
+  display:flex;
+  border-radius:5px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background-color:#0d0d0d;
+  font-size:1.4em;
+  width:100%;
+  height:100%;
+  border:none;
+  font-weight: 500;
+  color:lightgray;
+  transition: all 0.3s ease-in-out;
+}
+
+.navLink:hover
+{
+  background-color:#005555;
+  font-size:1.8em;
+}
+
+.rainbowColors:hover
+{
+  color: transparent;
+  background: linear-gradient(90deg, #efff00, #ffaa00, #ff2f00, #ff00f9, #0700ff, #00d9ff, #00ff39, #efff00, #ffaa00);
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-size: 800%;
+
+  animation: RainbowAnimation 4s linear infinite;
+}
+
+.timoLoher
+{
+  display:flex;
+  text-decoration: none;
+  align-items: center;
+  justify-content: left;
+  margin-left:20px;
+  font-size:44px;
+  font-weight: 800;
+  width:30%;
+  color:lightgray;
+}
+
+@keyframes RainbowAnimation {
+    0%{background-position:0% 50%}
+    100%{background-position:100% 50%}
+}
+
+.projectsParent
+{
+  display:flex;
+  flex-direction:row;
+  list-style-type:none;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: center;
+  padding:0px;
+  margin:0px;
+}
+
+.mainContentDiv
+{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  width:100%;
+  height:100%;
+}
+
+.mainContentDiv > h1
+{
+  width:100%;
+  text-align: center;
+  font-size: 70px;
+  font-weight: 900;
+  color:lightgray;
+  
+}

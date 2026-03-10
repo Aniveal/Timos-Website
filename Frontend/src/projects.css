@@ -1,0 +1,54 @@
+.projectEntry
+{
+    display:flex;
+    flex-direction:column;
+    justify-content: start;
+    align-items: center;
+    padding:0px 50px;
+}
+
+.gamePageArticle
+{
+    width:800px;
+}
+
+a
+{
+    color:darkred;
+    
+}
+a:hover
+{
+    color:lightgray;
+    
+}
+
+
+.projectEntry > a > img
+{
+    background-color:lightgray;
+    width:300px;
+    height:200px;
+    border-radius:9px;
+    object-fit:fill;
+
+}
+
+.underglow{
+    position: relative;
+    box-shadow: 0px 0px 50px 1px  rgb(255, 255, 255);
+    transition: all 0.2s ease-in-out;
+    border-radius: 11px;
+}
+
+.underglow:hover
+{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 20px 1px  rgb(255, 255, 255);
+}
+
+.articleTitle
+{
+    text-align: center;
+    
+}
