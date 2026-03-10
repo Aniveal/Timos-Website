@@ -2,6 +2,8 @@ import axios from 'axios'
 import dotenv from 'dotenv'
 import express from "express"
 
+"mongodb+srv://TimoLoher:<db_password>@boogiesongs.fgvacoq.mongodb.net/?appName=BoogieSongs"
+
 const baseUrl = '/api'
 dotenv.config()
 
