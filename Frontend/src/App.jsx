@@ -4,6 +4,8 @@ import {Projects} from './Projects.jsx'
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import Home from './Home.jsx'
 import GamePage from './GamePage.jsx'
+import HireMe from './HireMe.jsx'
+
 
 function App() {
   
@@ -16,6 +18,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/games/:gameID" element={<GamePage />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/hire-me" element={<HireMe />} />
       </Routes>
     </BrowserRouter>
   )

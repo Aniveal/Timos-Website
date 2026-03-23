@@ -1,7 +1,9 @@
 import { useState } from 'react'
+import axios from 'axios';
 
 export default function Home() {
 
+    
     return (
 
         <div className="mainContentDiv">
@@ -21,6 +23,7 @@ export default function Home() {
             <p>
                 <a href={"mailto:timo.loher@hotmail.com"}>Send me a Mail!</a>
             </p>
+            
         </div>
     )
 }

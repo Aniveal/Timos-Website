@@ -93,6 +93,47 @@ export default function ExpandableGamePage()
                     
                 )
             }
+        },
+        {
+            id:3,
+            name: "Spline Racer",
+            link: "https://aniveal.itch.io/spline-racer",
+            itchLink:"https://itch.io/embed-upload/15804810?color=333333",
+            description: () =>
+            {
+                return(
+
+                    <p style={{maxWidth: "1000px"}}>
+                        A prototype of a turn-based racing game. The game is based on the pen&paper game "Racetrack" that I played as a child in school. It's 
+                        possible to play alone to check it out. 
+                        Implementing the online multiplayer was very challenging and hard to learn, so I stopped working on it for now. It has quite some bugs, but I think
+                        it is playable. I might redo the whole thing from scratch at one point in the future.<br/>
+                    <h3>Controls</h3>
+                        Drag the arrow of the car to choose the next turn position. Click "Next Turn" or space bar to apply movement. Crashing results in a reset to the last checkpoint. Always the player moving gets the crash, so it's not worth it to ram other players at the current version. 
+
+
+                    <h3>Current Features</h3>
+
+                    <ul>
+                        <li>3 special move types: Drift, Ghost, Boost</li>
+                        <li>Car upgrades: buy move type, increase acceleration, fuel, move type cost</li>
+                        <li>12 car skins with selectable color</li>
+                        <li>Procedurally generated tracks</li>
+                    </ul>
+
+                    <h3>Planned Features</h3>
+                    <ul>
+                        <li>Sound! </li>
+                        <li>Weapons or other possibilities to kill other players</li>
+                        <li>Different game rules (turn timer, randomized turn order, destructible environment...)</li>
+                        <li>Overall more chaos :)</li>
+                    </ul>
+
+                    </p>
+
+                    
+                )
+            }
         }
 
     ]
