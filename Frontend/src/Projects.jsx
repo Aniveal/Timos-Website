@@ -86,10 +86,7 @@ var games = [
         image: splineLogo,
         imagehref: "/games/2"
     }
-    ,{
-        image: splineLogo,
-        imagehref: "/games/3"
-    }
+    
     
 ]
 
